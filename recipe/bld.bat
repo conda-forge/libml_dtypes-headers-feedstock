@@ -6,7 +6,7 @@ if errorlevel 1 exit 1
 cp ml_dtypes\include\float8.h %LIBRARY_PREFIX%\include\ml_dtypes\include\float8.h
 if errorlevel 1 exit 1
 
-cp ml_dtypes\include\int4.h %LIBRARY_PREFIX%\include\ml_dtypes\include\int4.h
+cp ml_dtypes\include\mxfloat.h %LIBRARY_PREFIX%\include\ml_dtypes\include\mxfloat.h
 if errorlevel 1 exit 1
 
 cp ml_dtypes\include\int4.h %LIBRARY_PREFIX%\include\ml_dtypes\include\intn.h

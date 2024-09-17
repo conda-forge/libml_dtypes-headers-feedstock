@@ -20,12 +20,12 @@ requirements:
 
 test:
   commands:
-    - test -f ${PREFIX}/include/ml_dtypes/include/float8.h  # [unix]
-    - test -f ${PREFIX}/include/ml_dtypes/include/int4.h    # [unix]
-    - test -f ${PREFIX}/include/ml_dtypes/include/intn.h    # [unix]
-    - if not exist %LIBRARY_PREFIX%\include\ml_dtypes\include\float8.h (exit 1)  # [win]
-    - if not exist %LIBRARY_PREFIX%\include\ml_dtypes\include\int4.h (exit 1)    # [win]
-    - if not exist %LIBRARY_PREFIX%\include\ml_dtypes\include\intn.h (exit 1)    # [win]
+    - test -f ${PREFIX}/include/ml_dtypes/include/float8.h   # [unix]
+    - test -f ${PREFIX}/include/ml_dtypes/include/mxfloat.h  # [unix]
+    - test -f ${PREFIX}/include/ml_dtypes/include/intn.h     # [unix]
+    - if not exist %LIBRARY_PREFIX%\include\ml_dtypes\include\float8.h (exit 1)   # [win]
+    - if not exist %LIBRARY_PREFIX%\include\ml_dtypes\include\mxfloat.h (exit 1)  # [win]
+    - if not exist %LIBRARY_PREFIX%\include\ml_dtypes\include\intn.h (exit 1)     # [win]
 
 
 about:
