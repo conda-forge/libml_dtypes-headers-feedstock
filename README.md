@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-libml_dtypes--headers-green.svg)](https://anaconda.org/conda-forge/libml_dtypes-headers) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libml_dtypes-headers.svg)](https://anaconda.org/conda-forge/libml_dtypes-headers) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libml_dtypes-headers.svg)](https://anaconda.org/conda-forge/libml_dtypes-headers) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libml_dtypes-headers.svg)](https://anaconda.org/conda-forge/libml_dtypes-headers) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libml__dtypes--headers-green.svg)](https://anaconda.org/conda-forge/libml_dtypes-headers) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libml_dtypes-headers.svg)](https://anaconda.org/conda-forge/libml_dtypes-headers) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libml_dtypes-headers.svg)](https://anaconda.org/conda-forge/libml_dtypes-headers) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libml_dtypes-headers.svg)](https://anaconda.org/conda-forge/libml_dtypes-headers) |
 
 Installing libml_dtypes-headers
 ===============================
