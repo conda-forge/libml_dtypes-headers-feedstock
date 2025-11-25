@@ -1,5 +1,5 @@
 {% set name = "libml_dtypes-headers" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jax-ml/ml_dtypes/archive/v{{ version }}.tar.gz
-  sha256: 4247e493b5b6fa01574b14fb0377ba3a6e76c7bdc0ae309f08d7d7bcc5bbbd7d
+  sha256: acaef497b420a15761cb525562b04d880b5c7afacea02d435a5d166fd8a99a16
 
 build:
   number: 0
